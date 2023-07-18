@@ -1,5 +1,4 @@
-# detonationFoam
-detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM.
+# detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM
 
 ## Motivation
 Gas-phase detonation simulation considering detailed chemical reactions is usually troubled by the following problems: 
@@ -62,6 +61,10 @@ Please submit a GitHub issue if you found a bug in the program. If you need help
 
 ##  Citation
 If you use the code for your works and researches, please cite: 
+
    ```
    detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM.
    ```
+
+
+
