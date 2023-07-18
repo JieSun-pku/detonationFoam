@@ -1,0 +1,5 @@
+polyTopoChange = polyTopoChange/polyTopoChange
+$(polyTopoChange)/hexRef82D.C
+$(polyTopoChange)/hexRef8axi.C
+
+LIB = $(FOAM_USER_LIBBIN)/libdynamicMesh2D
