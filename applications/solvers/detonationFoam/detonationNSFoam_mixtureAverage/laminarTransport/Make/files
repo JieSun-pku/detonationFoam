@@ -1,0 +1,6 @@
+laminarTransport/laminarTransport.C
+laminarTransport/laminarTransportNew.C
+mixtureAverage/mixtureAverage.C
+LewisNumber/LewisNumber.C
+
+LIB = $(FOAM_USER_LIBBIN)/liblaminarTransport
