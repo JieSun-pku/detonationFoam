@@ -63,7 +63,7 @@ Please submit a GitHub issue if you found a bug in the program. If you need help
 If you use the code for your works and researches, please cite: 
 
    ```
-   Jie Sun, Yiqing Wang, Baolin Tian, Zheng Chen*, DetonationFoam: an open-source solver for simulation of gaseous detonation based on OpenFOAM, Computer Physics Communications, (2023) in press, https://doi.org/10.1016/j.cpc.2023.108859.
+   J. Sun, Y. Wang, B. Tian, Z. Chen, detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM, Computer Physics Communications 292 (2023) 108859.
    ```
 
 
