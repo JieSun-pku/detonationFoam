@@ -1,4 +1,4 @@
-#Note: The term "transport.JHs()" in energy equation (see about line 12 in file detonationNSFoam_mixtureAverage/rhoEEqn.H) will cause errors in 2D simulations for detonationNSFoam_mixtureAverage solver.
+#Note: The term "transport.JHs()" in energy equation (see about line 12 in file detonationNSFoam_mixtureAverage/rhoEEqn.H) will cause errors in 2D simulations for detonationNSFoam_mixtureAverage solver. The author is trying to fix the bug.
 
 
 # detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM
