@@ -447,7 +447,6 @@ Foam::tmp<Foam::volScalarField> Foam::laminarTransport::JHs() const
 
         JHs += thermo_.rho()*hSpecie*Y_[specieI]*V_[specieI];
     }
-    JHs = JHs -JHs;
     return fvc::div(tJHs);    
 }
 
