@@ -1,3 +1,0 @@
-detonationNSFoam_Sutherland.C
-
-EXE = $(FOAM_USER_APPBIN)/detonationNSFoam_Sutherland
