@@ -1,4 +1,4 @@
-#Note: We fix the bug of the mixture-averaged transport model. New codes about the mixture-averaged transport model are refferred to https://github.com/ZSHtju/reactingDNS_OpenFOAM. In the next few days, we will update the documents and tutorials.
+#Note: We fixed the bug of the mixture-averaged transport model for detonationNSFoam_mixtureAverage solver. New codes about the mixture-averaged transport model refer to https://github.com/ZSHtju/reactingDNS_OpenFOAM. detonationNSFoam_Sutherland and detonationEulerFoam solvers are not changed.
 
 
 # detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM
@@ -24,20 +24,9 @@ applications/solvers/detonationFoam/detonationNSFoam_Sutherland
 applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage
 
 Libraries:
-applications/solvers/detonationFoam/detonationEulerFoam/DLB
-applications/solvers/detonationFoam/detonationEulerFoam/dynamicMesh2D
-applications/solvers/detonationFoam/detonationEulerFoam/fluxSchemes
-applications/solvers/detonationFoam/detonationNSFoam_Sutherland/DLB
-applications/solvers/detonationFoam/detonationNSFoam_Sutherland/dynamicMesh2D
-applications/solvers/detonationFoam/detonationNSFoam_Sutherland/fluxSchemes
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage/DLB
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage/dynamicMesh2D
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage/fluxSchemes
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage/moleFractions
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage/laminarTransport
-
-Utilities:
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage/fitTransport
+applications/solvers/detonationFoam/DLB
+applications/solvers/detonationFoam/dynamicMesh2D
+applications/solvers/detonationFoam/fluxSchemes
 
 Documents:
 doc/Manual_detonationFoam.pdf
@@ -45,19 +34,19 @@ doc/Manual_detonationFoam.pdf
 Tutorials:
 tutorials/1D_flame
 tutorials/1D_detonation
-tutorials/2D_detonation.
+tutorials/2D_detonation
 
 ## Compiling 
 1. The solver, detonationFoam, is developed based on OpenFOAM V6. Before installing the solver, please ensure you have installed OpenFOAM V6. Please refer to https://openfoam.org/download/6-ubuntu.
 
-2. For the solver detonationNSFoam_mixtureAverage, the transport fitting tool, fitTransport, is needed to be installed, which depends on the GNU Scientific Library. The GNU Scientific Library must be installed before installing the solver. The installation methods of GSL can be referred to https://www.gnu.org/software/gsl.
-
-3. Compiling detonationFoam:
+2. Compiling detonationFoam:
 
    ```bash
    cd applications/solvers/detonationFoam
    ./Allwmake
    ```
+
+Note: If you want to use the detonationNSFoam_mixtureAverage solver, please use ANSYS CHEMKIN to fit the transport data of Chemkin format. The tran.out can be outputted when you select to process Transport properties with Fit with Verbose Output. Mode detailed steps can be found in https://github.com/ZSHtju/reactingDNS_OpenFOAM.
 
 ## Getting help and reporting bugs
 Please submit a GitHub issue if you found a bug in the program. If you need help with the software or have further questions, contact sunjie_coe@pku.edu.cn and cz@pku.edu.cn.
@@ -68,6 +57,3 @@ If you use the code for your works and researches, please cite:
    ```
    J. Sun, Y. Wang, B. Tian, Z. Chen, detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM, Computer Physics Communications 292 (2023) 108859.
    ```
-
-
-
