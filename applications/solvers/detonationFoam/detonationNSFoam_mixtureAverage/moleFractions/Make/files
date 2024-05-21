@@ -1,2 +1,0 @@
-moleFraction.C
-LIB = $(FOAM_USER_LIBBIN)/libmoleFraction
