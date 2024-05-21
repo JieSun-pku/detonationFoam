@@ -1,5 +1,0 @@
-dynamicRefineFvMesh2D/dynamicRefineFvMesh2D.C
-dynamicRefineFvMeshAxi/dynamicRefineFvMeshAxi.C
-
-
-LIB = $(FOAM_USER_LIBBIN)/libdynamicFvMesh2D
