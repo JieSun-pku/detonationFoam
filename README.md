@@ -1,4 +1,4 @@
-#Note: We fix the bug of the mixture-averaged transport model. New codes are refferred to https://github.com/ZSHtju/reactingDNS_OpenFOAM. In the next few days, we will update the documents and tutorials.
+#Note: We fix the bug of the mixture-averaged transport model. New codes about the mixture-averaged transport model are refferred to https://github.com/ZSHtju/reactingDNS_OpenFOAM. In the next few days, we will update the documents and tutorials.
 
 
 # detonationFoam: An open-source solver for simulation of gaseous detonation based on OpenFOAM
