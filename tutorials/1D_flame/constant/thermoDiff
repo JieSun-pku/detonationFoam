@@ -1,0 +1,144 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      thermoDiff;
+}
+
+// Scheme: transport fitting
+
+H-H
+{
+ThermDiff_1	0.000E+00	;
+ThermDiff_2	0.000E+00	;
+ThermDiff_3	0.000E+00	;
+ThermDiff_4	0.000E+00	;
+}
+H-H2
+{
+ThermDiff_1	-1.525E-01	;
+ThermDiff_2	-5.464E-05	;
+ThermDiff_3	2.934E-08	;
+ThermDiff_4	-4.871E-12	;
+}
+H-O
+{
+ThermDiff_1	-2.700E-01	;
+ThermDiff_2	-3.616E-04	;
+ThermDiff_3	1.807E-07	;
+ThermDiff_4	-2.753E-11	;
+}
+H-OH
+{
+ThermDiff_1	-2.720E-01	;
+ThermDiff_2	-3.643E-04	;
+ThermDiff_3	1.821E-07	;
+ThermDiff_4	-2.774E-11	;
+}
+H-H2O
+{
+ThermDiff_1	1.419E-01	;
+ThermDiff_2	-7.666E-04	;
+ThermDiff_3	3.066E-07	;
+ThermDiff_4	-4.030E-11	;
+}
+H-O2
+{
+ThermDiff_1	-2.205E-01	;
+ThermDiff_2	-4.802E-04	;
+ThermDiff_3	2.329E-07	;
+ThermDiff_4	-3.465E-11	;
+}
+H-HO2
+{
+ThermDiff_1	-2.209E-01	;
+ThermDiff_2	-4.811E-04	;
+ThermDiff_3	2.334E-07	;
+ThermDiff_4	-3.471E-11	;
+}
+H-H2O2
+{
+ThermDiff_1	-2.213E-01	;
+ThermDiff_2	-4.820E-04	;
+ThermDiff_3	2.338E-07	;
+ThermDiff_4	-3.478E-11	;
+}
+H-N2
+{
+ThermDiff_1	-2.407E-01	;
+ThermDiff_2	-4.453E-04	;
+ThermDiff_3	2.182E-07	;
+ThermDiff_4	-3.270E-11	;
+}
+H2-H
+{
+ThermDiff_1	1.525E-01	;
+ThermDiff_2	5.464E-05	;
+ThermDiff_3	-2.934E-08	;
+ThermDiff_4	4.871E-12	;
+}
+H2-H2
+{
+ThermDiff_1	0.000E+00	;
+ThermDiff_2	0.000E+00	;
+ThermDiff_3	0.000E+00	;
+ThermDiff_4	0.000E+00	;
+}
+H2-O
+{
+ThermDiff_1	-4.156E-01	;
+ThermDiff_2	-1.097E-05	;
+ThermDiff_3	3.960E-09	;
+ThermDiff_4	-1.144E-12	;
+}
+H2-OH
+{
+ThermDiff_1	-4.219E-01	;
+ThermDiff_2	-1.114E-05	;
+ThermDiff_3	4.021E-09	;
+ThermDiff_4	-1.162E-12	;
+}
+H2-H2O
+{
+ThermDiff_1	-6.020E-02	;
+ThermDiff_2	-5.616E-04	;
+ThermDiff_3	2.554E-07	;
+ThermDiff_4	-3.634E-11	;
+}
+H2-O2
+{
+ThermDiff_1	-4.427E-01	;
+ThermDiff_2	-7.118E-05	;
+ThermDiff_3	3.848E-08	;
+ThermDiff_4	-6.863E-12	;
+}
+H2-HO2
+{
+ThermDiff_1	-4.445E-01	;
+ThermDiff_2	-7.145E-05	;
+ThermDiff_3	3.863E-08	;
+ThermDiff_4	-6.890E-12	;
+}
+H2-H2O2
+{
+ThermDiff_1	-4.461E-01	;
+ThermDiff_2	-7.171E-05	;
+ThermDiff_3	3.877E-08	;
+ThermDiff_4	-6.915E-12	;
+}
+H2-N2
+{
+ThermDiff_1	-4.453E-01	;
+ThermDiff_2	-4.947E-05	;
+ThermDiff_3	2.630E-08	;
+ThermDiff_4	-4.903E-12	;
+}

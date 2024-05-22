@@ -1,0 +1,332 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.0                                   |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+version                         2.0;
+format                          ascii;
+class                           dictionary;
+object                          binaryDiff;
+}
+
+// Scheme: transport fitting
+
+H-H
+{
+Diff1	-1.477E+01	;
+Diff2	4.195E+00	;
+Diff3	-3.280E-01	;
+Diff4	1.412E-02	;
+}
+H2-H
+{
+Diff1	-1.169E+01	;
+Diff2	2.884E+00	;
+Diff3	-1.638E-01	;
+Diff4	7.266E-03	;
+}
+H2-H2
+{
+Diff1	-1.023E+01	;
+Diff2	2.154E+00	;
+Diff3	-6.969E-02	;
+Diff4	3.234E-03	;
+}
+O-H
+{
+Diff1	-1.500E+01	;
+Diff2	4.132E+00	;
+Diff3	-3.275E-01	;
+Diff4	1.443E-02	;
+}
+O-H2
+{
+Diff1	-1.060E+01	;
+Diff2	2.157E+00	;
+Diff3	-6.525E-02	;
+Diff4	2.810E-03	;
+}
+O-O
+{
+Diff1	-1.330E+01	;
+Diff2	2.939E+00	;
+Diff3	-1.706E-01	;
+Diff4	7.547E-03	;
+}
+OH-H
+{
+Diff1	-1.502E+01	;
+Diff2	4.138E+00	;
+Diff3	-3.284E-01	;
+Diff4	1.447E-02	;
+}
+OH-H2
+{
+Diff1	-1.060E+01	;
+Diff2	2.157E+00	;
+Diff3	-6.525E-02	;
+Diff4	2.810E-03	;
+}
+OH-O
+{
+Diff1	-1.331E+01	;
+Diff2	2.939E+00	;
+Diff3	-1.707E-01	;
+Diff4	7.550E-03	;
+}
+OH-OH
+{
+Diff1	-1.333E+01	;
+Diff2	2.939E+00	;
+Diff3	-1.706E-01	;
+Diff4	7.547E-03	;
+}
+H2O-H
+{
+Diff1	-1.695E+01	;
+Diff2	4.416E+00	;
+Diff3	-3.115E-01	;
+Diff4	1.160E-02	;
+}
+H2O-H2
+{
+Diff1	-1.787E+01	;
+Diff2	4.905E+00	;
+Diff3	-4.174E-01	;
+Diff4	1.789E-02	;
+}
+H2O-O
+{
+Diff1	-1.895E+01	;
+Diff2	4.936E+00	;
+Diff3	-4.114E-01	;
+Diff4	1.723E-02	;
+}
+H2O-OH
+{
+Diff1	-1.896E+01	;
+Diff2	4.935E+00	;
+Diff3	-4.114E-01	;
+Diff4	1.723E-02	;
+}
+H2O-H2O
+{
+Diff1	-1.301E+01	;
+Diff2	1.429E+00	;
+Diff3	1.662E-01	;
+Diff4	-1.214E-02	;
+}
+O2-H
+{
+Diff1	-1.719E+01	;
+Diff2	4.863E+00	;
+Diff3	-4.216E-01	;
+Diff4	1.846E-02	;
+}
+O2-H2
+{
+Diff1	-1.229E+01	;
+Diff2	2.740E+00	;
+Diff3	-1.456E-01	;
+Diff4	6.497E-03	;
+}
+O2-O
+{
+Diff1	-1.474E+01	;
+Diff2	3.350E+00	;
+Diff3	-2.245E-01	;
+Diff4	9.907E-03	;
+}
+O2-OH
+{
+Diff1	-1.473E+01	;
+Diff2	3.338E+00	;
+Diff3	-2.229E-01	;
+Diff4	9.830E-03	;
+}
+O2-H2O
+{
+Diff1	-2.036E+01	;
+Diff2	5.196E+00	;
+Diff3	-4.301E-01	;
+Diff4	1.745E-02	;
+}
+O2-O2
+{
+Diff1	-1.579E+01	;
+Diff2	3.572E+00	;
+Diff3	-2.518E-01	;
+Diff4	1.103E-02	;
+}
+HO2-H
+{
+Diff1	-1.720E+01	;
+Diff2	4.866E+00	;
+Diff3	-4.221E-01	;
+Diff4	1.849E-02	;
+}
+HO2-H2
+{
+Diff1	-1.229E+01	;
+Diff2	2.741E+00	;
+Diff3	-1.458E-01	;
+Diff4	6.505E-03	;
+}
+HO2-O
+{
+Diff1	-1.476E+01	;
+Diff2	3.356E+00	;
+Diff3	-2.254E-01	;
+Diff4	9.946E-03	;
+}
+HO2-OH
+{
+Diff1	-1.475E+01	;
+Diff2	3.344E+00	;
+Diff3	-2.237E-01	;
+Diff4	9.869E-03	;
+}
+HO2-H2O
+{
+Diff1	-1.973E+01	;
+Diff2	4.993E+00	;
+Diff3	-4.089E-01	;
+Diff4	1.672E-02	;
+}
+HO2-O2
+{
+Diff1	-1.580E+01	;
+Diff2	3.572E+00	;
+Diff3	-2.519E-01	;
+Diff4	1.103E-02	;
+}
+HO2-HO2
+{
+Diff1	-1.581E+01	;
+Diff2	3.572E+00	;
+Diff3	-2.518E-01	;
+Diff4	1.103E-02	;
+}
+H2O2-H
+{
+Diff1	-1.721E+01	;
+Diff2	4.870E+00	;
+Diff3	-4.226E-01	;
+Diff4	1.851E-02	;
+}
+H2O2-H2
+{
+Diff1	-1.229E+01	;
+Diff2	2.742E+00	;
+Diff3	-1.459E-01	;
+Diff4	6.512E-03	;
+}
+H2O2-O
+{
+Diff1	-1.478E+01	;
+Diff2	3.363E+00	;
+Diff3	-2.263E-01	;
+Diff4	9.985E-03	;
+}
+H2O2-OH
+{
+Diff1	-1.477E+01	;
+Diff2	3.350E+00	;
+Diff3	-2.245E-01	;
+Diff4	9.907E-03	;
+}
+H2O2-H2O
+{
+Diff1	-1.972E+01	;
+Diff2	4.986E+00	;
+Diff3	-4.077E-01	;
+Diff4	1.667E-02	;
+}
+H2O2-O2
+{
+Diff1	-1.581E+01	;
+Diff2	3.573E+00	;
+Diff3	-2.519E-01	;
+Diff4	1.103E-02	;
+}
+H2O2-HO2
+{
+Diff1	-1.582E+01	;
+Diff2	3.572E+00	;
+Diff3	-2.519E-01	;
+Diff4	1.103E-02	;
+}
+H2O2-H2O2
+{
+Diff1	-1.582E+01	;
+Diff2	3.572E+00	;
+Diff3	-2.518E-01	;
+Diff4	1.103E-02	;
+}
+N2-H
+{
+Diff1	-1.677E+01	;
+Diff2	4.678E+00	;
+Diff3	-3.974E-01	;
+Diff4	1.741E-02	;
+}
+N2-H2
+{
+Diff1	-1.218E+01	;
+Diff2	2.679E+00	;
+Diff3	-1.374E-01	;
+Diff4	6.125E-03	;
+}
+N2-O
+{
+Diff1	-1.443E+01	;
+Diff2	3.216E+00	;
+Diff3	-2.070E-01	;
+Diff4	9.135E-03	;
+}
+N2-OH
+{
+Diff1	-1.442E+01	;
+Diff2	3.206E+00	;
+Diff3	-2.055E-01	;
+Diff4	9.070E-03	;
+}
+N2-H2O
+{
+Diff1	-2.026E+01	;
+Diff2	5.176E+00	;
+Diff3	-4.309E-01	;
+Diff4	1.761E-02	;
+}
+N2-O2
+{
+Diff1	-1.544E+01	;
+Diff2	3.435E+00	;
+Diff3	-2.340E-01	;
+Diff4	1.025E-02	;
+}
+N2-HO2
+{
+Diff1	-1.545E+01	;
+Diff2	3.436E+00	;
+Diff3	-2.341E-01	;
+Diff4	1.026E-02	;
+}
+N2-H2O2
+{
+Diff1	-1.546E+01	;
+Diff2	3.437E+00	;
+Diff3	-2.343E-01	;
+Diff4	1.027E-02	;
+}
+N2-N2
+{
+Diff1	-1.521E+01	;
+Diff2	3.348E+00	;
+Diff3	-2.234E-01	;
+Diff4	9.818E-03	;
+}

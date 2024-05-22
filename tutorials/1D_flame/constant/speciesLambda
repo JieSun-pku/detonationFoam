@@ -1,0 +1,80 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.0                                   |
+|   \\  /    A nd           | Web:      http://www.openfoam.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+version                         2.0;
+format                          ascii;
+class                           dictionary;
+object                          speciesLambda;
+}
+
+// Scheme: transport fitting
+
+H
+{
+Lambda1	-3.254E-01	;
+Lambda2	3.416E+00	;
+Lambda3	-3.631E-01	;
+Lambda4	1.586E-02	;
+}
+H2
+{
+Lambda1	1.109E+01	;
+Lambda2	-1.315E+00	;
+Lambda3	2.435E-01	;
+Lambda4	-8.972E-03	;
+}
+O
+{
+Lambda1	1.970E+00	;
+Lambda2	1.801E+00	;
+Lambda3	-1.549E-01	;
+Lambda4	6.909E-03	;
+}
+OH
+{
+Lambda1	1.245E+01	;
+Lambda2	-2.636E+00	;
+Lambda3	4.662E-01	;
+Lambda4	-2.107E-02	;
+}
+H2O
+{
+Lambda1	2.213E+01	;
+Lambda2	-8.452E+00	;
+Lambda3	1.459E+00	;
+Lambda4	-7.286E-02	;
+}
+O2
+{
+Lambda1	-2.514E+00	;
+Lambda2	3.152E+00	;
+Lambda3	-3.100E-01	;
+Lambda4	1.345E-02	;
+}
+HO2
+{
+Lambda1	5.546E-01	;
+Lambda2	1.591E+00	;
+Lambda3	-5.282E-02	;
+Lambda4	4.072E-04	;
+}
+H2O2
+{
+Lambda1	1.486E+00	;
+Lambda2	1.062E+00	;
+Lambda3	5.717E-02	;
+Lambda4	-6.383E-03	;
+}
+N2
+{
+Lambda1	1.154E+01	;
+Lambda2	-2.912E+00	;
+Lambda3	5.547E-01	;
+Lambda4	-2.750E-02	;
+}
