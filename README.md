@@ -32,9 +32,9 @@ Documents:
 doc/Manual_detonationFoam.pdf
 
 Tutorials:
-tutorials/1D_flame
-tutorials/1D_detonation
-tutorials/2D_detonation
+tutorials/1D_flame.
+tutorials/1D_detonation.
+tutorials/2D_detonation.
 
 ## Compiling 
 1. The solver, detonationFoam, is developed based on OpenFOAM V6. Before installing the solver, please ensure you have installed OpenFOAM V6. Please refer to https://openfoam.org/download/6-ubuntu.
