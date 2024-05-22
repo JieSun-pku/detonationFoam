@@ -18,23 +18,23 @@ Gas-phase detonation simulation considering detailed chemical reactions is usual
 5. The dynamic load balancing (DLB) algorithm is used to further improve the computational efficiency.
 
 ## Directory structure
-Applications:
-applications/solvers/detonationFoam/detonationEulerFoam
-applications/solvers/detonationFoam/detonationNSFoam_Sutherland
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage
+Applications: 
+applications/solvers/detonationFoam/detonationEulerFoam 
+applications/solvers/detonationFoam/detonationNSFoam_Sutherland 
+applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage 
 
-Libraries:
-applications/solvers/detonationFoam/DLB
-applications/solvers/detonationFoam/dynamicMesh2D
-applications/solvers/detonationFoam/fluxSchemes
+Libraries: 
+applications/solvers/detonationFoam/DLB 
+applications/solvers/detonationFoam/dynamicMesh2D 
+applications/solvers/detonationFoam/fluxSchemes 
 
 Documents:
 doc/Manual_detonationFoam.pdf
 
 Tutorials:
-tutorials/1D_flame
-tutorials/1D_detonation
-tutorials/2D_detonation
+tutorials/1D_flame 
+tutorials/1D_detonation 
+tutorials/2D_detonation 
 
 ## Compiling 
 1. The solver, detonationFoam, is developed based on OpenFOAM V6. Before installing the solver, please ensure you have installed OpenFOAM V6. Please refer to https://openfoam.org/download/6-ubuntu.
