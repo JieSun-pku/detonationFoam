@@ -1,0 +1,21 @@
+#!/bin/sh
+
+cd ./dynamicMesh2D/dynamicMesh
+wmake
+cd ../dynamicFvMesh
+wmake
+cd ../..
+cd ./DLB/src/thermophysicalModels/chemistryModel
+wmake
+cd ../../../..
+cd ./fluxSchemes
+wmake
+cd ..
+cd ./detonationNSFoam_mixtureAverage
+wmake
+cd ..
+cd ./detonationNSFoam_Sutherland
+wmake
+cd ..
+cd ./detonationEulerFoam
+wmake
