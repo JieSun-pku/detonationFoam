@@ -19,22 +19,22 @@ Gas-phase detonation simulation considering detailed chemical reactions is usual
 
 ## Directory structure
 Applications: 
-applications/solvers/detonationFoam/detonationEulerFoam 
-applications/solvers/detonationFoam/detonationNSFoam_Sutherland 
-applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage 
+1. applications/solvers/detonationFoam/detonationEulerFoam 
+2. applications/solvers/detonationFoam/detonationNSFoam_Sutherland 
+3. applications/solvers/detonationFoam/detonationNSFoam_mixtureAverage 
 
 Libraries: 
-applications/solvers/detonationFoam/DLB 
-applications/solvers/detonationFoam/dynamicMesh2D 
-applications/solvers/detonationFoam/fluxSchemes 
+1. applications/solvers/detonationFoam/DLB 
+2. applications/solvers/detonationFoam/dynamicMesh2D 
+3. applications/solvers/detonationFoam/fluxSchemes 
 
 Documents:
 doc/Manual_detonationFoam.pdf
 
 Tutorials:
-tutorials/1D_flame 
-tutorials/1D_detonation 
-tutorials/2D_detonation 
+1. tutorials/1D_flame 
+2. tutorials/1D_detonation 
+3. tutorials/2D_detonation 
 
 ## Compiling 
 1. The solver, detonationFoam, is developed based on OpenFOAM V6. Before installing the solver, please ensure you have installed OpenFOAM V6. Please refer to https://openfoam.org/download/6-ubuntu.
