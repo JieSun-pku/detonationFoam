@@ -182,7 +182,7 @@ autoPtr<compressible::turbulenceModel> turbulence
     (
         rho,
         U,
-        phi,
+        rhoPhi,
         thermo
     )
 );
