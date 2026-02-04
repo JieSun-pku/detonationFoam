@@ -1,1 +1,0 @@
-run the case by ‘detonationFoam_V2.0’
