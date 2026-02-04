@@ -1,17 +1,16 @@
 # detonationFoam (based on OpenFOAM 8): An open-source solver for simulation of gaseous detonation based on OpenFOAM
 detonationFoam_dev(two phase) branch is developed base on the detonationFoam_V2.0 branch (based on OpenFOAM 8). The description of the governing equations and mathematical models can still be found in the documentation under the version 1.0 branch.  
 
-The author's productivity is quite low, so updates to the dev branch will be slow.
-
-## What's new?
-Two-phase model is added.
+# What's new?
+Two-phase model is added. The reliability of the current solver has undergone preliminary testing. The author will conduct further validation tests and gradually upload sample calculations and
 
 ## Directory structure
-detonationFoam_V2.0
+detonationFoam_dev
    ```
    solverTypeEuler (Solve Euler equations)  
    solverTypeNS_Sutherland (Solve N-S equations; transport parameters are calculated according to Sutherland model)  
-   solverTypeNS_mixtureAverage (Solve N-S equations; transport parameters are calculated according to mixture-averaged model)  
+   solverTypeNS_mixtureAverage (Solve N-S equations; transport parameters are calculated according to mixture-averaged model)
+   solverTypeNSSpray_Sutherland (Solve N-S equations; transport parameters are calculated according to Sutherland model; two-phase mode, i.e., gas and droplet, is added) 
    fluxSchemes_improved (Improved convective flux computation library)  
    DLBFoam-1.0-1.0_OF8 (Dynamic load balance library: https://github.com/blttkgl/DLBFoam-1.0/tree/v1.0_OF8. Optional)  
    dynamicMesh2D (2D adaptive mesh refinement library. Optional)  
@@ -21,7 +20,7 @@ detonationFoam_V2.0
 ## Compiling 
 1. Install OpenFOAM version 8
 
-2. Compile detonationFoam_V2.0
+2. Compile detonationFoam_dev
    ```
    cd detonationFoam_V2.0
    ./Allwmake
