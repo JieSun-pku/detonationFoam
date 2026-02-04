@@ -2,7 +2,7 @@
 detonationFoam_dev(two phase) branch is developed base on the detonationFoam_V2.0 branch (based on OpenFOAM 8). The description of the governing equations and mathematical models can still be found in the documentation under the version 1.0 branch.  
 
 # What's new?
-Two-phase model is added. The reliability of the current solver has undergone preliminary testing. The author will conduct further validation tests and gradually upload sample calculations and
+Two-phase model is added. The reliability of the current solver has undergone preliminary testing. The author will conduct further validation tests and gradually upload example cases.
 
 ## Directory structure
 detonationFoam_dev
