@@ -77,7 +77,7 @@ If you use the code for your works and researches, please cite:
 [19] X. Yuan, T. Jin, Dynamic response of the unstable oblique detonation wave in confined space via different wedge rotation, Aerospace Science and Technology, 170 (2026) 111520.  
 
 ### 2025
-[18] M. Li, B. An, P. Li, M. Sun, T. Wang, J. Sun, Y. Wang, H. Zhang, Ignition dynamics of a supersonic combustor with parallel dual combustion zones, AIAA Journal [in press](https://doi.org/10.2514/1.J065894).  
+[18] M. Li, B. An, P. Li, M. Sun, T. Wang, J. Sun, Y. Wang, H. Zhang, Ignition dynamics of a supersonic combustor with parallel dual combustion zones, AIAA Journal, 64 (2026) 2593-2604.  
 [17] J. Sun, Z. Chen, Bifurcation of cellular detonation structure in a mixture with two-stage reactions, Journal of Fluid Mechanics 1022 (2025) A14.  
 [16] J. Sun, S.M. Shaik, V.B. Nguyen, H. Zhang, Detonation chemistry and propagation characteristics in partially cracked ammonia, Proceedings of the Combustion Institute 41 (2025) 105910.  
 [15] J. Hu, B. Zhang, Propulsion performance and detonation wave dynamics in a rotating detonation combustor: Effects of nonideal inflow conditions, Aerospace Science and Technology 168 (2025) 110857.  
