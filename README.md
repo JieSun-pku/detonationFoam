@@ -66,6 +66,7 @@ If you use the code for your works and researches, please cite:
 ##  Journal Publications Using detonationFoam Solver
 
 ### 2026
+[28] M. Li, B. An, M. Sun, P. Li, T. Wang, H. Wei, Y. Wang, H. Zhang, Synergistic flame stabilization and oscillation dynamics in a dual-zone supersonic combustor, Combustion and Flame, 289 (2026) 115031.  
 [27] J. Sun, Y. Wang, S. Xie, S.M. Shaik, H. Zhang, Numerical investigation on detonation attenuation and flame acceleration in channels with obstacle arrays, Physical Review Fluids 11 (2026) 043201.  
 [26] X. Yuan, T. Jin, Numerical study on the influence of jet on the stability of oblique detonation waves in confined space, Propulsion and Energy 2 (2026) 2.  
 [25] Y. Wang, C. Zheng, H. Zhang, Z. Chen, Propagation characteristics of H2–air detonations in double-bend ducts, Frontiers in Mechanical Engineering 12 (2026) DOI: 10.3389/fmech.2026.1761460.  
