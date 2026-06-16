@@ -55,7 +55,7 @@ The simulation of the turbulent boundary layer was completed with the assistance
 <img src="https://github.com/user-attachments/assets/c4e5e052-6fab-4502-b33c-491b4492d17d" width="800"/>
 
 ## Getting help and reporting bugs
-Please submit a GitHub issue if you found a bug in the program. If you need help with the software or have further questions, contact jie.s_rf@nus.edu.sg and cz@pku.edu.cn.
+Please submit a GitHub issue if you found a bug in the program. If you need help with the software or have further questions, contact sunjie_coe@pku.edu.cn and cz@pku.edu.cn.
 
 ##  Citation
 If you use the code for your works and researches, please cite: 
