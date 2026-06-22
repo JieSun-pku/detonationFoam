@@ -37,6 +37,11 @@ EEqn.solve("e");
 thermo.correct();
 rhoE = rho*(e + 0.5*magSqr(U));
 
+//RDE
+gamma=thermo.gamma();
+R_gas=thermo.Cp()-thermo.Cv();
+//RDE
+
 p.ref() = rho()/psi();
 p.correctBoundaryConditions();
 rho.boundaryFieldRef() == psi.boundaryField()*p.boundaryField();
