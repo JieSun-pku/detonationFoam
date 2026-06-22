@@ -9,6 +9,12 @@ solve
 e = rhoE/rho - 0.5*magSqr(U);
 e.correctBoundaryConditions();
 thermo.correct();
+
+//RDE
+gamma=thermo.gamma();
+R_gas=thermo.Cp()-thermo.Cv();
+//RDE
+
 rhoE.boundaryFieldRef() == rho.boundaryField()*(e.boundaryField()+0.5*magSqr(U.boundaryField()));
 
 p.ref() = rho()/psi();
