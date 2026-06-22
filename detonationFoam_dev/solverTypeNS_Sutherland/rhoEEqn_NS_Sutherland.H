@@ -22,6 +22,11 @@ e.correctBoundaryConditions();
 thermo.correct();
 rhoE.boundaryFieldRef() == rho.boundaryField()*(e.boundaryField()+0.5*magSqr(U.boundaryField()));
 
+//RDE
+gamma=thermo.gamma();
+R_gas=thermo.Cp()-thermo.Cv();
+//RDE
+
 
 solve
 (
