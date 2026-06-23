@@ -50,7 +50,7 @@ Since detonationFoam solver released on Github, it has been successfully applied
 
 
 ### Scramjet
-<img width="1369" height="738" alt="resized_EG" src="https://github.com/user-attachments/assets/ac2cb608-8774-4b05-a1c1-20959208730c" />
+<img src="https://github.com/user-attachments/assets/ac2cb608-8774-4b05-a1c1-20959208730c" width="800"/>
 
 
 ## Getting help and reporting bugs
