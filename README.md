@@ -52,6 +52,10 @@ Since detonationFoam solver released on Github, it has been successfully applied
 ### Scramjet
 <img src="https://github.com/user-attachments/assets/ac2cb608-8774-4b05-a1c1-20959208730c" width="800"/>
 
+<img src="https://github.com/user-attachments/assets/51541777-ec7a-485a-8d03-9e83c3a47bd7" width="800"/>
+
+
+
 
 ## Getting help and reporting bugs
 Please submit a GitHub issue if you found a bug in the program. If you need help with the software or have further questions, contact sunjie_coe@pku.edu.cn and cz@pku.edu.cn.
