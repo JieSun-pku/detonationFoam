@@ -55,6 +55,8 @@ Since detonationFoam solver released on Github, it has been successfully applied
 <img src="https://github.com/user-attachments/assets/51541777-ec7a-485a-8d03-9e83c3a47bd7" width="800"/>
 
 
+### Two-phase detonation
+<img src="https://github.com/user-attachments/assets/0b176500-a812-4125-a811-1ea30f9c0868" width="800"/>
 
 
 ## Getting help and reporting bugs
