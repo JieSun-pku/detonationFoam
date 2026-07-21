@@ -72,6 +72,8 @@ If you use the code for your works and researches, please cite:
 ##  Journal Publications Using detonationFoam Solver
 
 ### 2026
+[31] J. Arcities, P. Popov, E.J. Ching, K. Viswanath, R.F. Johnson, CodeJeNN: A simple C++ neural network generator for physics applications, https://doi.org/10.48550/arXiv.2607.02746.  
+[30] J. Liu, P. Yang, W. Cheng, J. Ding, X. Luo, Interaction of shock wave with sinusoidal fuel-air interface, Advances in Aerodynamics, 8 (2026) 22.  
 [29] C. Li, W. Liang, Q. Zhou, Y. Li, S. Sun, X. Zeng, Effects of chamber geometry and ignition sequence on high-pressure pre-mixed H2/O2 flame propagation and deflagration-to detonation transition, Scientific Reports, in press.  
 [28] M. Li, B. An, M. Sun, P. Li, T. Wang, H. Wei, Y. Wang, H. Zhang, Synergistic flame stabilization and oscillation dynamics in a dual-zone supersonic combustor, Combustion and Flame, 289 (2026) 115031.  
 [27] J. Sun, Y. Wang, S. Xie, S.M. Shaik, H. Zhang, Numerical investigation on detonation attenuation and flame acceleration in channels with obstacle arrays, Physical Review Fluids 11 (2026) 043201.  
