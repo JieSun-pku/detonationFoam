@@ -72,6 +72,7 @@ If you use the code for your works and researches, please cite:
 ##  Journal Publications Using detonationFoam Solver
 
 ### 2026
+[35] Y. Chai, J. Sun, Z. Ma, S. Wang, J. Wang, Z. Chen, Mode locking and resonance selection in rotating detonation engines under inlet pressure forcing, Journal of Fluid Mechanics, 2026, In press.  
 [34] M. Mousavi, P. Rameshb, B. Lee, D. Jarrahbashi, Numerical analysis of detonation dynamics in ammonia–hydrogen mixtures, International Journal of Hydrogen Energy, 274 (2026) 157250.  
 [33] J. Sun, P. Yang, D. Yu, Y. Wang, Z. Chen, Effects of reflected shock-boundary layer interactions on detonation initiation in shock-focusing systems, Physical Review Fluids, 11 (2026) 093201.  
 [32] G. Cinieri, Z.A. Shah, G. Mehdi, M.G. De Giorgi, Effect of Nanosecond Plasma Preconditioning on Detonation in High-Pressure H₂/O₂ Mixtures: A Multiscale Numerical Study, Flow, Turbulence and Combustion 117 (2026) 23.  
