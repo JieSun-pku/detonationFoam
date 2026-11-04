@@ -1,5 +1,3 @@
-# The two-phase model has been added to the dev branch. Interested parties may switch to the detonationFoam_dev branch.
-
 # detonationFoam_V2.0 (based on OpenFOAM 8): An open-source solver for simulation of gaseous detonation based on OpenFOAM
 The description of the governing equations and mathematical models can still be found in the documentation under the version 1.0 branch.
 
