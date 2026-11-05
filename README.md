@@ -1,4 +1,4 @@
-# detonationFoam_V2.0 (based on OpenFOAM 8): An open-source solver for simulation of gaseous detonation based on OpenFOAM
+# detonationFoam_V1.2 (based on OpenFOAM 8): An open-source solver for simulation of gaseous detonation based on OpenFOAM
 The description of the governing equations and mathematical models can still be found in the documentation under the version 1.0 branch.
 
 ## What's new?
@@ -9,7 +9,7 @@ The description of the governing equations and mathematical models can still be 
 4. Modified the selection strategy for reconstructed variable members in convective flux computation (showing improved performance in supersonic combustion ramjet simulations).
 
 ## Directory structure
-detonationFoam_V2.0
+detonationFoam_V1.2
    ```
    solverTypeEuler (Solve Euler equations)  
    solverTypeNS_Sutherland (Solve N-S equations; transport parameters are calculated according to Sutherland model)  
@@ -23,9 +23,9 @@ detonationFoam_V2.0
 ## Compiling 
 1. Install OpenFOAM version 8
 
-2. Compile detonationFoam_V2.0
+2. Compile detonationFoam_V1.2
    ```
-   cd detonationFoam_V2.0
+   cd detonationFoam_V1.2
    ./Allwmake
    ```
 
