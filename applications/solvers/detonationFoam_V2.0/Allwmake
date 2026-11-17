@@ -10,7 +10,7 @@ cd ./DLBFoam-1.0-1.0_OF8/src/thermophysicalModels/chemistryModel
 wmake
 
 cd ../../../..
-cd ./fluxSchemes_improved
+cd ./fluxSchemes
 wmake
 
 cd ..
