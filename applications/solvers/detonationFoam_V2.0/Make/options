@@ -1,5 +1,5 @@
 EXE_INC = \
-    -IfluxSchemes_improved/lnInclude \
+    -IfluxSchemes/lnInclude \
     -IsolverTypeEuler \
     -IsolverTypeNS_Sutherland \
     -IsolverTypeNS_mixtureAverage \
@@ -35,4 +35,4 @@ EXE_LIBS = \
     -lODE \
     -lcombustionModels \
     -lmeshTools \
-    -L$(FOAM_USER_LIBBIN) -lfluxSchemes_improved
+    -L$(FOAM_USER_LIBBIN) -lfluxSchemes
