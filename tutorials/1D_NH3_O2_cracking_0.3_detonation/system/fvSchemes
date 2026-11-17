@@ -42,8 +42,8 @@ interpolationSchemes
 {
     default             linear;
     reconstruct(rho)    Minmod;
-    reconstruct(rhoU)      MinmodV;
-    reconstruct(rPsi)      Minmod;
+    reconstruct(U)      MinmodV;
+    reconstruct(p)      Minmod;
     reconstruct(e)      Minmod;
     reconstruct(c)      Minmod;
 }  
